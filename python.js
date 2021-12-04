@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
+const cors = cors();
 app.use(express.json());
+app.use(cors());
 
 const python_qa = [
   {
