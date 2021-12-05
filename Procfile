@@ -1,1 +1,1 @@
-web: node react.js
+web: node python.js
