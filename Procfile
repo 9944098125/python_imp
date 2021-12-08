@@ -1,1 +1,1 @@
-web: node src/python.js
+web: node python.js
