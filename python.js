@@ -44,7 +44,7 @@ const python_qa = [
   },
 ];
 
-app.get('/python', function(request, response){
+app.get('/python', (request, response) => {
      response.send(python_qa);
 });
 
